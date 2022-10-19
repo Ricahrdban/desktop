@@ -1,0 +1,22 @@
+import javax.swing.*;
+  class aframe(){
+    JFrame f = new JFrame("my first swing program");
+    JButton bt = new JButton("click");
+    JPanel pn = new JPanel();
+    JTextArea ta = new JTextArea("example");
+
+    f.add(pn);
+    pn.add(bt);
+    pn.add(ta);
+    bt.setBounds(20,30,100,200);
+    ta.setBounds(50,60,100,200);
+     f.setSize(600,400);
+    f.setVisible(true);
+}
+
+public class NewMain {
+  public atatic void main(String[] arge){
+
+    new add();
+  }
+}
